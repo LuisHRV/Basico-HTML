@@ -1,0 +1,199 @@
+<!--
+    Abertura e fechamento de Tag <>
+-->
+<h1>O título</h1>
+<!-- Elementos vazios-->
+<input type="text">
+<!--Atributos HTML-->
+<img src="atibuto.png" alt="texto alternativo">
+<!--Atributos Booleanos como "disabled"-->
+<input type="text" disabled>
+<!--tag e aspas
+essas aspas são boas praticas -> ""-->
+<a href="">link</a>
+<!--Atributos Globais
+    - class
+    - contenteditable
+    - data-*
+    - hidden 
+    - id
+    - style
+    - tabindex
+    - title
+    -->
+    <div class = "carrinho" contenteditable="true" id="nomediferente" title="definir um titulo" >
+       conteudo
+    </div>
+
+    <div class = "carrinho" data-id="" id="1" style="color:red">
+       conteudo
+    </div>
+
+    <div class = "carrinho"hidden>
+       conteudo
+    </div>
+
+    <div tabindex="1">
+        conteudo 1
+    </div>
+
+    <div tabindex="2">
+        conteudo 2
+    </div>
+
+    <div tabindex="3">
+        conteudo 3
+    </div>
+    <!--
+        Aninhamento de tags 
+        - rexpeita a hierarquia das tags
+    -->
+    <p>
+        vou <em>escrever</em> um paragrafo
+    </p>
+    <p>
+        Esse é um novo paragrafo 
+        e aqui tem outro texto <br/> e mais um texto
+    </p>
+<!--
+    conteudo e caracteres reservados
+-->
+os espaços
+<br>
+que colocmos
+<br>
+além das quebras de linhas são 
+ignorados
+&lt;
+&gt;
+&amp;
+&quot;
+&apos;
+<!--
+    Semântica
+
+    - dar significado
+    - elementos semânticos
+-->
+<!--
+    Cabeçalhos e parágrafos
+    só usamos 1 h1 na pagina
+-->
+<h1>Sobre mim</h1>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet exercitationem sequi quisquam corporis nobis totam accusantium temporibus nisi a nihil. Eligendi, iste? Aliquid voluptatum officia sit a! Harum, officiis voluptas.</p>
+
+<h2>Nascimento</h2>
+<h3>Infancia</h3>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae debitis illum architecto iste, cum quidem explicabo non nihil porro? Repellendus consequatur natus, vitae eius molestias modi explicabo repudiandae odio iure.</p>
+
+<h3>Adolecencia</h3>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae debitis illum architecto iste, cum quidem explicabo non nihil porro? Repellendus consequatur natus, vitae eius molestias modi explicabo repudiandae odio iure.</p>
+
+<h2>Trabalho</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, eum. Pariatur, voluptates voluptas. Possimus sint culpa cupiditate, dolorem inventore maiores illum. Unde ad voluptas ab perspiciatis reiciendis iusto voluptate delectus.</p>
+
+<a href="">Saiba mais.</a>
+
+<!--
+    Listas
+    colocar qualquer tag e * algum numero faz mais de 1 daquela tag
+-->
+<h1>Suco Detox</h1>
+<h2>Ingredientes:</h2> 
+
+<ul>
+<li>3 folhas de couve:</li>
+<li>1 lanranja:</li>
+<li>1 pedacinho de gengibre:</li>
+<li>300 ml de agua:</li>
+<li>Adoçante a gosto:</li>
+<li>Gelo a gosto:</li>
+</ul>
+
+<ol>
+    <li>3 folhas de couve:</li>
+    <li>1 lanranja:</li>
+    <li>1 pedacinho de gengibre:</li>
+    <li>300 ml de agua:</li>
+    <li>Adoçante a gosto:</li>
+    <li>Gelo a gosto:</li>
+</ol>
+<!--
+    Citações
+    <blockquote>
+        <cite>
+            <q>
+-->
+<blockquote cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote">
+    O <strong>Elemento HTML <code>&lt;blockquote&gt;</code> </strong> (ou <em>HTML Block
+    Quotation Element</em>) indica que um texto externo foi citado.
+</blockquote>
+
+
+<p>De acordo com <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote">
+    <cite>página MDN blockquote</cite></a>:
+</p>
+
+
+<p>O elemento quote — <code>&lt;q&gt;</code> — é <q cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q">usado para citações curtas que não precisam de parágrafos ou quebras de linha.</q> -- <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q">
+    <cite>MDN q page</cite></a>.</p>
+<!--
+    abreviações
+    <abbr>
+-->
+<p>Usamos <abbr title="Hypertext Markup Language">HTML</abbr>  para estruturar nossos documentos da web.</p>
+<!--
+    Detalhes de contato
+-->
+<address>
+    <p>Luis Henrique <br>
+    <strong>Guarulhos, SP</strong>
+    </p>
+</address>
+
+<!--
+    lista de descrição
+-->
+<h2>Glossário</h2>
+<dl>
+    <dt>Hypertext</dt>
+    <dd>é um hyper texto com possibilidades ...</dd>
+
+    <dt>Markup</dt>
+    <dd>Marcação do texto</dd>
+
+    <dt>Language</dt>
+    <dd>Linguagem com sua sematica e sentaxe ...</dd>
+</dl>
+
+<!-- 
+    representando codigos de computador
+    <code>
+        partes genericas de codigo
+    <pre>
+        blocos de codigo, pois essa tag mantem os espaços em branco e recuos que eu colocar no meu codigo    
+-->
+
+<p>
+    document
+         .querySelector("body")
+</p>
+<code>
+    document
+         .querySelector("body")
+</code>
+<pre>
+    <code>
+        document
+             .querySelector("body")
+    </code>
+</pre>
+<!-- 
+    Elementos genericos
+    *<div>
+    *<span>
+-->
+<div class="cart">
+    Um texto qualquer
+</div>
+<span>outro</span> <span>texto</span>
