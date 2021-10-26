@@ -5,7 +5,7 @@
 <!-- Elementos vazios-->
 <input type="text">
 <!--Atributos HTML-->
-<img src="atibuto.png" alt="texto alternativo">
+<img src="https://source.unsplash.com/random" alt="texto alternativo">
 <!--Atributos Booleanos como "disabled"-->
 <input type="text" disabled>
 <!--tag e aspas
@@ -79,17 +79,17 @@ ignorados
     Cabeçalhos e parágrafos
     só usamos 1 h1 na pagina
 -->
-<h1>Sobre mim</h1>
+<h1 id="about">Sobre mim</h1>
 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet exercitationem sequi quisquam corporis nobis totam accusantium temporibus nisi a nihil. Eligendi, iste? Aliquid voluptatum officia sit a! Harum, officiis voluptas.</p>
 
-<h2>Nascimento</h2>
+<h2 id="history">Nascimento</h2>
 <h3>Infancia</h3>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae debitis illum architecto iste, cum quidem explicabo non nihil porro? Repellendus consequatur natus, vitae eius molestias modi explicabo repudiandae odio iure.</p>
 
 <h3>Adolecencia</h3>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae debitis illum architecto iste, cum quidem explicabo non nihil porro? Repellendus consequatur natus, vitae eius molestias modi explicabo repudiandae odio iure.</p>
 
-<h2>Trabalho</h2>
+<h2 id="works">Trabalho</h2>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, eum. Pariatur, voluptates voluptas. Possimus sint culpa cupiditate, dolorem inventore maiores illum. Unde ad voluptas ab perspiciatis reiciendis iusto voluptate delectus.</p>
 
 <a href="">Saiba mais.</a>
@@ -197,3 +197,29 @@ ignorados
     Um texto qualquer
 </div>
 <span>outro</span> <span>texto</span>
+<br>
+<!--
+    Hyperlinks - elemento ancora :<a>
+        + anatomia
+        + atributos
+
+        target
+        - self = abre padrão 
+        - _blank = abre uma nova guia
+-->
+<a href="http://google.com.br" target="_blank">Conteudo</a>
+<p>Teste de encontre-me</p>
+
+<ul>
+    <li><a href="https://www.linkedin.com/in/luis-henrique-rocha-ventura-495562218/" target="_blank">Linkedin</a></li>
+    <li><a href="mailto:luis.h01@hotmail.com">E-mail</a></li>
+    <li><a href="tel:+5511992508183">Telefone</a></li>
+</ul>
+
+<p>Saiba mais</p>
+<ul>
+    <li><a href="#about">Sobre mim</a></li>
+    <li><a href="#history">História</a></li>
+    <li><a href="#works">Trabalhos</a></li>
+</ul>
+
