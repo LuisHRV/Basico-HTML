@@ -227,10 +227,94 @@ ignorados
     table = tabela
     tr = table row = primeira linha
     th = cabeçalho
+    caption = descrição da tabela
 -->
 
 <table>
-    <tr>
-        <th></th>
-    </tr>
+
+    <caption>Pessoas por idade</caption>
+
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>Luis</th>
+            <th>25</th>
+        </tr>
+        <tr>
+            <th>Mayke</th>
+            <th>31</th>
+        </tr>
+        <tr>
+            <th>Igor</th>
+            <th>22</th>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>Toral: </td>
+            <td>3 Pessoas</td>
+        </tr>
+    </tfoot>
 </table>
+<!--
+    Tabelas complexas
+-->
+<a href="../exercicios3/tabela.html">Tabelona Show</a>
+<!--
+    <head>
+-->
+<a href="cabeçalhos.html">Cabeçalhos </a>
+
+<!--
+    tipos de metas
+-->
+
+<!-- Codificação para caracteres especias -->
+<meta charset="utf-8">
+
+<!-- portabilidade para dispisitivos mobiles -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Favicon básico -->
+<link rel="icon" href="/icons/icon-48x48.png?v=cfca599cb367ccaf7377d56ddc7542f5">
+
+<!-- ophone não-retina, ipod touch e dispositivos andoid 2.1+: -->
+
+<link rel="apple-touch-icon-precomposed" href="https://developer.cdn.mozilla.net/static/img/favicon57.a2490b9a2d76.png">
+
+<!--
+
+    meta
+
+    charset
+    viewport
+    author
+    description
+    robots
+-->
+<head>
+    <!-- SEO: SEARCH ENGINE OPTIMIZATION (motores de busca = google) -->
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="author" content="Luis Henrique">
+<meta name="description" content="Um website para iniciantes em programação">
+<meta name="robots" content="noindex,nofollow">
+
+</head>
+
+<!-- meta dados para redes sociais -->
+
+<head>
+<!-- open graph: facebook -->
+<meta property="og:image" content="imagem indexada" >
+<meta property="og:description" content="Aqui vem um texto para ser mostrado ao compartilhar no facebook">
+
+<!--Twitter-->
+<meta name="twitter:title" content="Roketseat">
+</head>
